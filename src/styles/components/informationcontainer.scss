@@ -1,0 +1,26 @@
+@import '../variables';
+@import '../mixins';
+
+#information{
+  flex-direction: column;
+  background-color:$bg-color-secundary;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  border-radius:$card-border-radius;
+.info-card{
+  @include center;
+  justify-content: start;
+  gap: 1rem;
+  padding-top: 1rem;
+  width: 100%;
+  p, h3, #phone-icon, #email-icon, #location-icon{
+    color: $text-color;
+  }
+  #phone:hover{
+    background: $gradient;
+  border-radius:$card-border-radius;
+
+  }
+}
+  
+}

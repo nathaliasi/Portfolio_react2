@@ -1,0 +1,27 @@
+@import '../variables';
+@import '../mixins';
+
+#sidebar{
+  display: flex;
+  flex-direction: column;
+  background-color: $bg-color;
+  width: fit-content;
+  padding: 20px;
+  border-radius: 5px;
+  align-items: center;
+  padding-right: 1rem;
+  img{
+    max-width: 100%;
+    border-radius: 10px;
+    margin: auto;
+  }
+  .title{
+    @include center;
+    color: $text-color;
+    margin-top: 1rem;
+  }
+
+  .btn{
+    @include btn;
+  }
+}

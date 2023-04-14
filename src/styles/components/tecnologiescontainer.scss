@@ -1,0 +1,30 @@
+@import '../variables';
+@import '../mixins';
+
+.tecnologies-container{
+  .tecnologies-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    width: fit-content;
+    .tecnology-card{
+      @include center;
+      gap: 1rem;
+      padding: 0 2rem;
+      margin-top: 8px;
+      border: 1px solid #333;
+      width: 45%;
+      border-radius:$card-border-radius;
+    h3{
+      color: $text-color;
+      margin-bottom: 1rem;
+      font-size: 1rem;
+      }
+    svg{
+      font-size: 5rem;
+    }
+
+    }
+   
+  }
+
+}

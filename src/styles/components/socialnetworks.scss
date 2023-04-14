@@ -1,0 +1,19 @@
+@import '../mixins.scss';
+@import '../variables.scss';
+
+#social-networks{
+  @include center;
+  gap: 1rem;
+  margin: 1rem 0;
+.social-btn{
+  padding: .6rem;
+  background-color:$bg-color-secundary;
+  border-radius: 5px;
+  color: #333;
+  font-size: 1.3rem;
+  @include center;
+  &:hover{
+    background: $gradient
+  }
+  }
+}
