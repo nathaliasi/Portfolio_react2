@@ -6,6 +6,12 @@
     display: grid;
     grid-template-columns: 1fr 1fr ;
     width: fit-content;
+    @media(max-width: 512px){
+      display: flex;
+      overflow-y: auto;
+      max-width: 250px;
+      }
+    }
     .tecnology-card{
       @include center;
       gap: 1rem;
@@ -27,4 +33,3 @@
    
   }
 
-}

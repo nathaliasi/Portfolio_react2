@@ -5,6 +5,9 @@
   padding: 2rem;
   display: flex;
   flex-wrap: wrap;
+  @media(max-width: 512px){
+    padding: 10px 0 0 0;
+  }
   h2, p{
     margin-bottom: .5rem;
   }

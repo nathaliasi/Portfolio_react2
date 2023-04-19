@@ -7,6 +7,9 @@
   padding: 1rem;
   margin-bottom: 2rem;
   border-radius:$card-border-radius;
+  @media(max-width: 512px){
+   padding: .2rem;
+  }
 .info-card{
   @include center;
   justify-content: start;
@@ -16,8 +19,19 @@
   p, h3, #phone-icon, #email-icon, #location-icon{
     color: $text-color;
   }
+  h3{
+    @media(max-width: 512px){
+      font-size: 1rem;
+    }
+    p{
+      @media(max-width: 512px){
+        font-size: .5rem;
+      }
+    }
+  }
+ 
   #phone:hover{
-    background: $gradient;
+  background: $gradient;
   border-radius:$card-border-radius;
 
   }
