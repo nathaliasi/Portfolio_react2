@@ -6,7 +6,6 @@ import "../styles/pages/app.scss"
 const Home = () => {
   return (
     <section id="container">
-    <h1>Nathália Sardou</h1>
       <div id="portfolio">
       <Sidebar/>
       <MainContent/>

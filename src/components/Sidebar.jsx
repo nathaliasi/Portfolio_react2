@@ -9,6 +9,7 @@ import Avatar from '../img/eu2.png';
 const sidebar = () => {
   return (
     <aside id='sidebar'>
+      <h2>Nathália Sardou</h2>
       <img id='profile' src={Avatar} alt='Nathália Sardou imagem'/>
       <p className='title'>Desenvolvedora Front-End</p>
       <SocialNetworks />

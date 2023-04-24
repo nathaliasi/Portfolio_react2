@@ -2,9 +2,12 @@
 @import '../mixins';
 
 .projects-container{
-  padding: 2rem;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  margin-bottom: 10px;
+  h2{
+    margin-bottom: 5px;
+  }
   @media(max-width: 512px){
     padding: 10px 0 0 0;
   }
@@ -13,7 +16,11 @@
   }
 .button2{
   @include btn;
-  
+  margin-top: 5px;
+  @media(max-width: 800px){
+    width: -webkit-fill-available;
+    text-align: center;
+  }
 }
 }
   
