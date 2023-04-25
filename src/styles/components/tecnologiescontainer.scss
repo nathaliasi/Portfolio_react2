@@ -5,6 +5,12 @@
   margin-bottom: 10px;
   h2{
     margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    .span{
+      @include spanMainContent();
+     }
   }
   .tecnologies-grid{
     display: grid;
@@ -24,6 +30,9 @@
       border: 1px solid #333;
       width: 45%;
       border-radius:$card-border-radius;
+      @media(max-width: 800px){
+        max-width: 45%;
+      }
     h3{
       color: $text-color;
       margin-bottom: 1rem;

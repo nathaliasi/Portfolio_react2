@@ -6,4 +6,8 @@
   border-radius:$container-border-radius;
   padding: 2rem 1rem;
   width: min-content;
+  @media(max-width: 800px){
+    min-width: 280px;
+    align-items: center;
+  }
 }

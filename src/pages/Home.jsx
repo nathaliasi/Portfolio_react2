@@ -9,7 +9,7 @@ const Home = () => {
       <div id="portfolio">
       <Sidebar/>
       <MainContent/>
-    </div>
+      </div>
     </section>
   )
 }

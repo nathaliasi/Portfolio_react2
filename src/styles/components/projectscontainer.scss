@@ -7,8 +7,14 @@
   margin-bottom: 10px;
   h2{
     margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    .span{
+      @include spanMainContent();
+     }
   }
-  @media(max-width: 512px){
+  @media(max-width: 800px){
     padding: 10px 0 0 0;
   }
   h2, p{

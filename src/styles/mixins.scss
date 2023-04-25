@@ -25,7 +25,7 @@
 }
 
 @mixin span(){
-  content: "";
+    content: "";
     width: 50px;
     height: 9px;
     background: #000;
@@ -36,6 +36,15 @@
     background: #a9c2c9;
 }
       
+@mixin spanMainContent(){
+  content: "";
+  display: flex;
+  background: #a0c2c9;
+  width: -webkit-fill-available;
+  height: 8px;
+  border-radius: 10px;
+  border: none;
+}
 
        
         
