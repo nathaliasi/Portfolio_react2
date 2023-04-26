@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/components/sidebar.scss';
 import SocialNetworks from './SocialNetworks';
-import InformationContainer from './informationContainer';
+import InformationContainer from './InformationContainer';
 import ButtonDownload from './ButtonDownload';
 
 import Avatar from '../img/eu2.png';
