@@ -11,10 +11,10 @@ const sidebar = () => {
     <aside id='sidebar'>
       <h2>Nathália Sardou</h2>
       <img id='profile' src={Avatar} alt='Nathália Sardou imagem'/>
-      <span className='span'></span>
+      <span className='span'/>
       <p className='title'>Desenvolvedora Front-End</p>
       <SocialNetworks />
-      <span className='span'></span>
+      <span className='span'/>
       <InformationContainer />
       <ButtonDownload/>
     </aside>
