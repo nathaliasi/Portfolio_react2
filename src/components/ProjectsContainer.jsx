@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import '../styles/components/projectsContainer.scss';
+import '../styles/components/projectscontainer.scss';
 
 const ProjectsContainer = () => {
   return (
