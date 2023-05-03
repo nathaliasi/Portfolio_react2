@@ -27,7 +27,7 @@
 @mixin span(){
     content: "";
     width: 50px;
-    height: 9px;
+    height: 3px;
     margin: 1rem;
     display: flex;
     border-radius: 20px;
@@ -40,7 +40,8 @@
   display: flex;
   background: #a0c2c9;
   width: -webkit-fill-available;
-  height: 8px;
+  max-width: 250px;
+  height: 3px;
   border-radius: 10px;
   border: none;
 }

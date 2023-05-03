@@ -7,7 +7,7 @@ const Projects = () => {
   return (
     <section className='project-container'>
       <Link className='button3' to={'/'}>Home</Link>  
-      <h1>Projetos</h1>
+      <h2>Projetos</h2>
       <div className='container-cards'>
       {projects.map(({id, image, title, description, tags, source, visit}) => (
         <div className='cards' key={id}>
