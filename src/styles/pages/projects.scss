@@ -45,6 +45,9 @@
       width: auto;
       padding: 2rem;
     }
+    @media(max-width: 350px){
+      padding: 0.8rem;
+    }
     .cards{
       display: flex;
       flex-direction: column;
@@ -62,6 +65,10 @@
           $border-cards, 
           rgba(0, 0, 0, 0)
         ) 1 100%;
+        @media(max-width: 350px){
+          padding: 0;
+        }
+
         
         .cards-link{
           @include paddings();
